@@ -1,7 +1,8 @@
 {
   "private": true,
   "scripts": {
-    "build": "next build",
+    "build0": "next build",
+    "build": "bun --bun next build",
     "dev0": "next dev --turbopack",
     "dev": "bun --bun next dev --turbopack",
     "start": "next start"

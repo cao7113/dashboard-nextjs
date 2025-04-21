@@ -3,5 +3,7 @@ version: '3'
 tasks:
   dev: bun run dev
 
+  seed-db: open http://localhost:3000/seed
+
   # ts in IDE
   # https://nextjs.org/docs/app/api-reference/config/typescript#typescript-plugin
