@@ -1,5 +1,8 @@
 import SideNav from '@/app/ui/dashboard/sidenav';
  
+// try in Chapter 10 https://nextjs.org/learn/dashboard-app/adding-search-and-pagination
+// export const experimental_ppr = true;
+
 export default function Layout({ children }: { children: React.ReactNode }) {
   return (
     <div className="flex h-screen flex-col md:flex-row md:overflow-hidden">
