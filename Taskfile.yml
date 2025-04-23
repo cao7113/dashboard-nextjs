@@ -5,5 +5,9 @@ tasks:
 
   seed-db: open http://localhost:3000/seed
 
+  gen-auth-sec: |
+    # put in .env
+    openssl rand -base64 32
+
   # ts in IDE
   # https://nextjs.org/docs/app/api-reference/config/typescript#typescript-plugin
